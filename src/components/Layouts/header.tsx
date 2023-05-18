@@ -21,7 +21,7 @@ export function Header() {
             {/* <Image className="w-10 h-10 mr-2" src={Logo} alt="Four Leaf" width={20} height={20} /> */}
             <div className="flex items-center justify-center flex-grow">
               <Link href="/">
-                <span className="text-2xl sm:text-4xl md:text-4xl font-bold text-white items-baseline justify-center pr-2 md:pr-12">Template</span>
+                <span className="text-2xl sm:text-4xl md:text-4xl font-bold text-white items-baseline justify-center pr-2 md:pr-12">Moradas do Pé Grande</span>
               </Link>
             </div>
           </div>
