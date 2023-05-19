@@ -29,7 +29,7 @@ p + p {
   --white: #FFFFFF;
 
   --gray-100: #e1e1e6;
-  --gray-300: #a8a8b3;
+  --gray-300: #89899A;
   --gray-800: #333333;
   --gray-850: #1f2729;
   --gray-900: #0a0a0b;
@@ -91,11 +91,10 @@ ul {
 /************************** Menu ************************* */
 
 .active-menu-header span {
-  color: #fff;
+  color: #03124D;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
   font-weight: bolder;
   text-decoration: none;
 }
@@ -113,7 +112,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
   font-weight: bolder;
 }
 
@@ -128,7 +126,6 @@ ul {
   align-items: center;
   justify-content: center;
   color: #fff;
-  width: 80px;
   border-radius: 2px;
 }
 
@@ -146,7 +143,6 @@ ul {
   align-items: center;
   justify-content: center;
   color: #fff;
-  width: 80px;
   border-radius: 2px;
 }
 @media(max-width: 767px) {
@@ -163,10 +159,10 @@ ul {
   content: '';
   height: 5px;
   border-radius: 3px 3px 0 0;
-  width: 80px;
   position: absolute;
   bottom: 0px;
-  background: var(--green-500);
+  width: 80px;
+  background: #03124D;
 }
 
 @media(max-width: 767px) {
@@ -177,7 +173,7 @@ ul {
     width: 80px;
     position: relative;
     bottom: -15px;
-    background: var(--green-500);
+    background: #03124D;
   }
 }
 /************************** Menu ***********************/
@@ -315,4 +311,30 @@ ul {
   .home-page-content {
     margin-top: 250px;
   }
+}
+/*********** Cards Home ********************/
+.container-ads {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9404743098411239) 0%, rgba(208, 228, 252, 1) 21%, rgba(168, 206, 252, 1) 54%, rgba(202, 224, 252, 1) 82%, rgba(255, 255, 255, 1) 100%);
+}
+
+.box-ads {
+  margin: 0rem auto 0 auto;
+  width: 100%;
+  display: grid;
+	grid-template-columns: repeat(auto-fit, 350px);
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media(max-width: 600px) {
+  .box-Ads {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.shadow {
+  /* margin: 1rem; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }

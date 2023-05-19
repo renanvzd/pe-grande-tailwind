@@ -15,8 +15,28 @@ export const MenuHeader: MenuLinksItems[] = [
     icon: <RxDashboard />,
   },
   {
-    menuTitle: 'Contact',
-    href: '/contact',
+    menuTitle: 'Minilofts',
+    href: '/minilofts',
+    icon: <AiOutlineMail />,
+  },
+  {
+    menuTitle: 'Casarão',
+    href: '/minilofts',
+    icon: <AiOutlineMail />,
+  },
+  {
+    menuTitle: 'Casa dos Fundos',
+    href: '/casa-dos-fundos',
+    icon: <AiOutlineMail />,
+  },
+  {
+    menuTitle: 'Outras Moradas',
+    href: '/minilofts',
+    icon: <AiOutlineMail />,
+  },
+  {
+    menuTitle: 'Camping nas Montanhas',
+    href: '/minilofts',
     icon: <AiOutlineMail />,
   },
 ]

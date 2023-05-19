@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
@@ -15,17 +17,12 @@ module.exports = {
       },
       colors: {
         mainColor: "#00EE00",
-        ["primary-background"]: "#131820",
-        slogan: "rgb(18, 156, 5)",
-        boxSubpage: "rgb(7, 33, 16);",
+        ["primary-background"]: "rgba(202, 224, 252)",
+        ["header-background"]: "rgb(90, 185, 216)",
+        header: "#03124D",
+        ["header-inactive"]: "#89899A",
         primary: "#5440af",
         ["primary-hover"]: "#1b1567",
-        secondary: "#e9db8b",
-        tertiary: "#ef8d65",
-        ["tertiary-hover"]: "#ff7034",
-        quarternary: "#ed6c65",
-        "lp-bluegray": "#F5F4FF",
-        "lp-bluedark": "#2F2868"
       },
       boxShadow: {
         cardShadow:
@@ -35,4 +32,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+});

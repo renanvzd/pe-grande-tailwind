@@ -1,6 +1,6 @@
 import { Layout } from "@/components/Layouts/layout";
-import { HeaderHomepage } from "@/components/Homepage/header";
-import { FirstSectionHomePage } from "@/components/Homepage/first-section";
+import CardsHome from "@/components/cards-home";
+import CarouselHome from "@/components/carousel-home";
 
 const LandingPage = () => {
   return (
@@ -10,8 +10,8 @@ const LandingPage = () => {
         description=""
         content=""
       >
-        <HeaderHomepage />
-        <FirstSectionHomePage />
+        <CarouselHome />
+        <CardsHome />
       </Layout>
     </>
   );
