@@ -13,10 +13,12 @@ const LandingPage = () => {
       >
         <CarouselHome />
         <CardsHome />
-        <Video
-          titleYoutube="Moradas do Pé Grande &amp; Tramandaí"
-          embedId="FM3zxdSJX5g"
-        />
+        <div className="bg-[#090a46] w-screen">
+          <Video
+            titleYoutube="Moradas do Pé Grande &amp; Tramandaí"
+            embedId="FM3zxdSJX5g"
+          />
+        </div>
       </Layout>
     </>
   );

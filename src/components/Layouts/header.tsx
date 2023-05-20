@@ -24,7 +24,7 @@ export function Header() {
             {/* <Image className="w-10 h-10 mr-2" src={Logo} alt="Four Leaf" width={20} height={20} /> */}
             <div className="flex items-center justify-center">
               <Link href="/">
-                <span className="text-xl sm md:text-2xl lg:text-xl font-bold text-black items-baseline justify-center pr-2 md:pr-0">Moradas do Pé Grande</span>
+                <span className="text-xl sm md:text-3xl lg:text-2xl font-bold text-black items-baseline justify-center pr-2 md:pr-0">Moradas do Pé Grande</span>
               </Link>
             </div>
           </div>
@@ -39,9 +39,9 @@ export function Header() {
 
             <div className='flex md:pr-0 flex-row-reverse'>
               <nav className="listItems md:items-center md:justify-end pr-5" id="mobile-menu">
-                <ul className="menu-header flex flex-row gap-3 lg:gap-8">
+                <ul className="menu-header flex flex-row gap-1 lg:gap-8">
                   {menusHeader.map((item, index) =>
-                    <li key={index} className='w-auto h-10 md:h-20 mx-auto items-center justify-center flex'>
+                    <li key={index} className='w-auto h-10 lg:h-10 mx-auto items-center justify-center flex'>
                       <Link href={item.href}>
                         <div
                           className={`flex mx-auto items-center justify-center ${currentPath === `${item.href}`
