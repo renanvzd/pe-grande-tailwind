@@ -7,9 +7,9 @@ type HeaderSubpageProps = {
 const HeaderSubpage = ({ title }: HeaderSubpageProps) => {
   return (
     <>
-      <main className="bg-background bg-gradient-to-b from-background to-background-gradient bg-gray-900">
+      <main className="bg-[#03124D]">
         <div className="mx-auto relative">
-          <div className="h-16 flex items-center justify-center sm:h-24 md:h-20">
+          <div className="h-16 flex items-center justify-center sm:h-24 md:h-28">
             <p className="text-white font-bold lg:text-5xl md:text-3xl text-4xl tracking-widest sm:tracking-normal md:tracking-widest">
               {title}
             </p>

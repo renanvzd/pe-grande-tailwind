@@ -1,8 +1,8 @@
 import { Layout } from "@/components/Layouts/layout";
+import Introduction from "@/components/Moradas/introduction";
 import { HeaderSubpage } from "@/components/header-subpages";
-import { HeaderHomepage } from "@/components/Homepage/header";
 
-const ContactPage = () => {
+const Minilofts = () => {
   return (
     <>
       <Layout
@@ -10,12 +10,12 @@ const ContactPage = () => {
         description=""
         content=""
       >
-        <HeaderSubpage title="Contact" />
-        <HeaderHomepage />
+        <HeaderSubpage title="Minilofts" />
+        <Introduction />
 
       </Layout>
     </>
   );
 };
 
-export default ContactPage;
+export default Minilofts;

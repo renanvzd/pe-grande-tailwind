@@ -21,7 +21,7 @@ export const MenuHeader: MenuLinksItems[] = [
   },
   {
     menuTitle: 'Casarão',
-    href: '/minilofts',
+    href: '/casarao',
     icon: <AiOutlineMail />,
   },
   {
@@ -31,12 +31,12 @@ export const MenuHeader: MenuLinksItems[] = [
   },
   {
     menuTitle: 'Outras Moradas',
-    href: '/minilofts',
+    href: '/outras-moradas',
     icon: <AiOutlineMail />,
   },
   {
     menuTitle: 'Camping nas Montanhas',
-    href: '/minilofts',
+    href: '/montanhas',
     icon: <AiOutlineMail />,
   },
 ]
