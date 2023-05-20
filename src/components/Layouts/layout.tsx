@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Head from "next/head";
 import { Header } from "@/components/Layouts/header";
-import { Footer } from "./footer";
+import Footer from "./Footer";
 
 
 const Layout: React.FC<{

@@ -18,7 +18,7 @@ export function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 z-40 w-full bg-header-background border-b border-gray-800">
+      <header className="fixed top-0 left-0 z-40 w-full bg-header-background">
         <div className="flex items-center justify-between h-20 pl-4 md:pl-4 xl:pl-6">
           <div className="flex items-center justify-center mr-5">
             {/* <Image className="w-10 h-10 mr-2" src={Logo} alt="Four Leaf" width={20} height={20} /> */}
@@ -61,10 +61,10 @@ export function Header() {
 
                 <div className='flex mx-auto justify-center pl-8'>
                   <div className="flex items-baseline w-auto justify-center rounded-md ml-0 md:ml-0">
-                    <div className="flex h-20 w-12 items-center justify-center px-2">
+                    <div className="flex h-20 w-12 items-center justify-center px-2 cursor-pointer">
                       <Link href="https://www.facebook.com/pousadatramandai" target="_blank" title="Visite nosso Facebook"
                         rel="noreferrer">
-                        <Image src={Facebook} alt="Facebook" />
+                        <Image src={Facebook} alt="Facebook" className='cursor-pointer' />
                       </Link>
                     </div>
                     <div className="flex h-20 w-12 items-center justify-center flex-grow  px-2">

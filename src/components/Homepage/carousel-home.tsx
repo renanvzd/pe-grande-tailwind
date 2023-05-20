@@ -4,7 +4,7 @@ import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline"
 export default function CarouselHome() {
   return (
     <Carousel
-      className="rounded-xl"
+      className="rounded-xl z-10"
       loop={true}
       autoplay={true}
       prevArrow={({ handlePrev }) => (

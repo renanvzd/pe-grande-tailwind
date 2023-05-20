@@ -29,7 +29,7 @@ p + p {
   --white: #FFFFFF;
 
   --gray-100: #e1e1e6;
-  --gray-300: #89899A;
+  --gray-300: #4f4c4c;
   --gray-800: #333333;
   --gray-850: #1f2729;
   --gray-900: #0a0a0b;
@@ -250,9 +250,23 @@ ul {
   .one,
   .two,
   .three {
-  height: 4px;
-  width: 100%;
-  margin: 7px auto;
+  height: 3px;
+  width: 80%;
+  margin: 6px auto;
+  }
+
+  .menuSectionOn .menuToggle .one {
+    transform: rotate(45deg) translate(5px, 5px);
+    background-color: #fff;
+  }
+
+  .menuSectionOn .menuToggle .two {
+    opacity: 0;
+  }
+
+  .menuSectionOn .menuToggle .three {
+    transform: rotate(-45deg) translate(8px, -8px);
+    background-color: #fff;
   }
 }
 @media (max-width: 450px) {
@@ -346,14 +360,4 @@ ul {
 .shadow {
   /* margin: 1rem; */
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.videocontainer {
-	position:relative; 
-	padding-bottom:56.25%;
-}
-.videocontainer iframe {
-	width:100%;
-	height:100%;
-	position:absolute;
 }
