@@ -1,4 +1,6 @@
 import { Layout } from "@/components/Layouts/layout";
+import CarouselMinilofts from "@/components/Moradas/carousel-moradas";
+import Description from "@/components/Moradas/description";
 import Introduction from "@/components/Moradas/introduction";
 import { HeaderSubpage } from "@/components/header-subpages";
 
@@ -11,8 +13,11 @@ const Minilofts = () => {
         content=""
       >
         <HeaderSubpage title="Minilofts" />
-        <Introduction />
-
+        <div className="bg-[#cae0fc]">
+          <Introduction />
+          <CarouselMinilofts />
+          <Description />
+        </div>
       </Layout>
     </>
   );

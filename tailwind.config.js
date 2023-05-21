@@ -14,6 +14,8 @@ module.exports = withMT({
     extend: {
       screens: {
         xs: "480px",
+        md: "752px",
+        lg: "1030px",
       },
       colors: {
         mainColor: "#00EE00",
