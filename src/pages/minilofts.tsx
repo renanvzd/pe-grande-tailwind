@@ -1,6 +1,7 @@
 import { Layout } from "@/components/Layouts/layout";
 import CarouselMinilofts from "@/components/Moradas/carousel-moradas";
 import Description from "@/components/Moradas/description";
+import Information from "@/components/Moradas/information";
 import Introduction from "@/components/Moradas/introduction";
 import { HeaderSubpage } from "@/components/header-subpages";
 
@@ -17,6 +18,7 @@ const Minilofts = () => {
           {/* <Introduction /> */}
           <Description />
           <CarouselMinilofts />
+          <Information />
         </div>
       </Layout>
     </>

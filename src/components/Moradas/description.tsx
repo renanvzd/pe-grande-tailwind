@@ -7,7 +7,7 @@ const Description = () => {
         className="absolute h-full w-screen"
       />
       <div className="absolute h-full w-full bg-white opacity-60" />
-      <div className="relative h-full px-2 pt-8 pb-10 lg:pt-14 lg:pb-20 ">
+      <div className="relative h-full px-5 pt-5 pb-10 lg:pt-14 lg:pb-20 md:px-20">
         <div className="p-3">
           <p className="mb-4 text-base md:text-xl lg:text-2xl text-justify text-black">
             Esse condomínio tem 13 Mini Lofts com vista para o mar e ao atravessar a rua você já estará com os PÉS NA AREIA! Fica a 3 km do centro de Tramandaí (cerca de 6 min de carro). Os motoristas amigos ou uber cobram em torno de R$ 15,00 para ir ao centro. Fica também a 3 km da plataforma.
