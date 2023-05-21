@@ -3,14 +3,9 @@ import { Carousel } from "@material-tailwind/react";
 export default function CarouselMinilofts() {
   return (
     <>
-      <div className="">
-        <p className="pb-0 lg:pb-5 lg:text-2xl md:text-xl text-center font-bold">Confira as fotos dessa morada:</p>
-        <img
-          src="https://i.imgur.com/xUH7XIQ.jpg"
-          alt="image 1"
-          className="absolute h-[600px] w-screen opacity-50"
-        />
-        <div className=" mx-auto justify-center items-center w-[300px] md:w-[500px] my-3 md:my-0 md:pt-0 pt-8 pb-0">
+      <div className="background-gallery bg-gradient-to-b from-cyan-100 to-blue-300 w-screen pt-4 pb-4">
+
+        <div className=" mx-auto justify-center items-center w-[300px] md:w-[500px] my-3 md:my-0 md:pt-0 pb-0">
 
           <Carousel
             className="rounded-xl"
