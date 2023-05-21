@@ -14,8 +14,8 @@ const Minilofts = () => {
       >
         <HeaderSubpage title="Minilofts" />
         <div className="bg-[#cae0fc]">
-          <Introduction />
-          <CarouselMinilofts />
+          {/* <Introduction />
+          <CarouselMinilofts /> */}
           <Description />
         </div>
       </Layout>
