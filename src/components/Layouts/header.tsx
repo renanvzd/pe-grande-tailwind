@@ -39,7 +39,7 @@ export function Header() {
 
             <div className='flex md:pr-0 flex-row-reverse'>
               <nav className="listItems md:items-center md:justify-end pr-5" id="mobile-menu">
-                <ul className="menu-header flex flex-row gap-1 lg:gap-8">
+                <ul className="menu-header flex flex-row gap-6 lg:gap-8">
                   {menusHeader.map((item, index) =>
                     <li key={index} className='w-auto h-10 lg:h-10 mx-auto items-center justify-center flex'>
                       <Link href={item.href}>
@@ -59,21 +59,21 @@ export function Header() {
                 </ul>
 
 
-                <div className='flex mx-auto justify-center pl-8'>
-                  <div className="flex items-baseline w-auto justify-center rounded-md ml-0 md:ml-0">
-                    <div className="flex h-20 w-12 items-center justify-center px-2 cursor-pointer">
+                <div className='flex mx-auto justify-center md:pl-8 pl-0 md:pt-0 pt-0 lg:mt-0 mt-8'>
+                  <div className="flex items-baseline w-auto justify-center rounded-md ml-0 md:ml-0 lg:gap-1 gap-5">
+                    <div className="flex md:h-20 md:w-12 items-center justify-center cursor-pointer">
                       <Link href="https://www.facebook.com/pousadatramandai" target="_blank" title="Visite nosso Facebook"
                         rel="noreferrer">
                         <Image src={Facebook} alt="Facebook" className='cursor-pointer' />
                       </Link>
                     </div>
-                    <div className="flex h-20 w-12 items-center justify-center flex-grow  px-2">
+                    <div className="flex md:h-20 w-12 items-center justify-center flex-grow">
                       <Link href="https://www.youtube.com/channel/UCb8Jf1A0laXF7O-b6up1FJg" target="_blank" title="Visite nosso canal"
                         rel="noreferrer">
                         <Image src={Youtube} alt="YouTube" />
                       </Link>
                     </div>
-                    <div className="flex h-20 w-12 items-center justify-center flex-grow  px-2">
+                    <div className="flex md:h-20 w-12 items-center justify-center flex-grow">
                       <Link href="https://www.instagram.com/moradas_do_pe_grande_tramandai/" target="_blank" title="Visite nosso Instagram"
                         rel="noreferrer">
                         <Image src={Instagram} alt="Instagram" />

@@ -1,5 +1,3 @@
-import { HeaderSubpage } from "../header-subpages";
-
 const Description = () => {
   return (
     <div className="relative w-screen">

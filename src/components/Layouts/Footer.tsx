@@ -6,7 +6,7 @@ export default function Footer() {
   const socialMedia = SocialMedia;
 
   return (
-    <footer className="bg-header-background" aria-labelledby="footer-heading">
+    <footer className="bg-primary-background" aria-labelledby="footer-heading">
       <div className="footerWhats">
         <a
           target="_blank"
@@ -24,7 +24,7 @@ export default function Footer() {
         Footer
       </h2>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="md:flex md:items-center md:justify-between py-12 lg:py-8">
+        <div className="md:flex md:items-center md:justify-evenly py-8 lg:py-8">
           <div className="flex flex-col md:flex-row items-center justify-center space-x-6 md:order-2">
             <div>
               <p className='flex items-center text-center md:invisible md:text-base text-lg'>Visite nossas redes sociais</p>

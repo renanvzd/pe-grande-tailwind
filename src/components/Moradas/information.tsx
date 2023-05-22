@@ -41,7 +41,7 @@ export default function Information() {
   return (
     <div className="bg-[#03124D] w-screen mx-auto justify-center px-0 py-5">
       <div className="w-screen px-5">
-        <p className="text-3xl font-bold text-white">Valores</p>
+        <p className="md:text-3xl text-2xl font-bold text-white">Valores</p>
       </div>
       <Fragment>
         {PegrandeItems.map((price, index) => {
@@ -59,7 +59,7 @@ export default function Information() {
                 >
                   <p className="text-white text-base lg:text-2xl"><b>{price.name}</b></p>
                 </AccordionHeader>
-                <AccordionBody className="px-8 bg-blue-100 md:text-xl text-base">
+                <AccordionBody className="px-8 bg-blue-100 md:text-xl">
                   <p className="text-black">{price.description}</p>
 
                   <div className="">
