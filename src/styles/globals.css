@@ -13,6 +13,7 @@ li,
 button {
   font-family: "Colibri", "Avenir", Sans-Serif !important;
   color: #2c2c2c;
+  opacity: 1;
 }
 
 p + p {
