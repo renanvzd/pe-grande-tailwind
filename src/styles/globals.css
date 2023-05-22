@@ -98,6 +98,9 @@ ul {
   font-weight: bolder;
   text-decoration: none;
 }
+.active-menu-header:hover span {
+  color: #00ffff;
+}
 
 .active-menu-header {
   display: flex;
@@ -378,3 +381,20 @@ ul {
   background: rgb(184,181,175);
 background: linear-gradient(180deg, rgba(184,181,175,0.6) 20%, rgba(225,233,241,1) 30%, rgba(202, 224, 252, 1)) 100%);
 } */
+
+
+/*************************************/
+.footerWhats {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  height: auto;
+}
+@media(max-width: 600px) {
+  .footerWhats {
+  position: fixed;
+  bottom: 0.75em;
+  right: 0.5em;
+  height: auto;
+}
+}

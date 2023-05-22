@@ -8,7 +8,7 @@ const Description = () => {
         alt="image 1"
         className="absolute h-full w-screen"
       />
-      <div className="absolute h-full w-full bg-white opacity-60" />
+      <div className="absolute h-full w-full bg-white opacity-70" />
       <div className="relative h-full px-5 md:pt-5 pt-8 pb-10 lg:pt-10 lg:pb-20 md:px-20">
         <p className="text-black text-center font-bold lg:text-4xl md:text-3xl text-2xl tracking-widest sm:tracking-normal md:tracking-widest md:pb-6 pb-2">
           Minilofts

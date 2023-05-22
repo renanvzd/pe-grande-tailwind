@@ -1,11 +1,25 @@
 import Image from 'next/image';
 import { SocialMedia } from "./social-media";
+import Whatsapp from "@/assets/images/Whats.svg"
 
 export default function Footer() {
   const socialMedia = SocialMedia;
 
   return (
     <footer className="bg-header-background" aria-labelledby="footer-heading">
+      <div className="footerWhats">
+        <a
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=5551984395416&text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20Morada%3A%20(diga%20qual%20opcao%20do%20site)%20_____%2C%20no%20per%C3%ADodo%20dd%2Fmm%2Faa%20%C3%A0%20dd%2Fmm%2Faa%20para%20o%20n%C3%BAmero%20de%20pessoas%3A%20xx.%20Obrigado!%20(Por%20favor%2C%20complete%20a%20msg%20acima%20antes%20de%20enviar)%20"
+          title="Chama no zap"
+          rel="noreferrer"
+
+          id="whatsapp"
+        >
+          <Image src={Whatsapp} alt="Whatsapp" className="md:h-24 md:w-24 h-20 w-20" />
+        </a>
+
+      </div>
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
