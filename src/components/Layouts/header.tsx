@@ -18,13 +18,13 @@ export function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 z-40 w-full bg-header-background">
+      <header className="fixed top-0 left-0 z-40 w-full bg-[#03124D]">
         <div className="flex items-center justify-between h-20 pl-4 md:pl-4 xl:pl-6">
           <div className="flex items-center justify-center mr-5">
             {/* <Image className="w-10 h-10 mr-2" src={Logo} alt="Four Leaf" width={20} height={20} /> */}
             <div className="flex items-center justify-center">
               <Link href="/">
-                <span className="text-xl sm md:text-3xl lg:text-2xl font-bold text-black items-baseline justify-center pr-2 md:pr-0">Moradas do Pé Grande</span>
+                <span className="text-xl sm md:text-3xl lg:text-2xl font-bold text-white items-baseline justify-center pr-2 md:pr-0">Moradas do Pé Grande</span>
               </Link>
             </div>
           </div>

@@ -2,7 +2,8 @@ export const PegrandeItems = [
   {
     name: "1 - Mini Loft econômico ",
     description: "(Somente térreo. Apto 2 ou 3) PISCINA NÃO INCLUSA. Sem acesso ao deck de piscina, espreguiçadeiras e ao espaço para banhos de sol. Ventilador de teto; Geladeira privativa; Pia e utensílios básicos, copos, talheres, pratos e 2 panelas; Cama de casal e beliche; Mesa com até 04 cadeiras;  (fogão pode utilizar no espaço gourmet 24 horas/fora do apto). Tv canais locais; Wi-fi. Banheiro privativo; ",
-    price_1: "Consulte valores e disponibilidade da tarifa econômica. WhatsApp (51) 98439-5416, com Sra. Bianca",
+    price_1: "Consulte valores e disponibilidade da tarifa econômica. ",
+    price_2: "WhatsApp (51) 98439-5416, com Sra. Bianca",
     option_1: false
   },
   {

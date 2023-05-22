@@ -91,7 +91,7 @@ ul {
 /************************** Menu ************************* */
 
 .active-menu-header span {
-  color: #03124D;
+  color: #00ffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +103,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #00ffff;
   border-radius: 2px;
 }
 
@@ -133,7 +133,7 @@ ul {
     position: absolute;
     bottom: 0px;
     width: 80px;
-    background: #03124D;
+    background: #00ffff;
   }
   
   @media(max-width: 1030px) {
@@ -149,12 +149,16 @@ ul {
   }
 
 .inactive-menu-header span {
-  color: var(--gray-300);
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bolder;
 }
+.inactive-menu-header:hover span {
+   
+    color: #00ffff;
+  }
 
 .inactive-menu-header {
   display: flex;
@@ -198,7 +202,7 @@ ul {
   .one,
   .two,
   .three {
-    background-color: #000;
+    background-color: #fff;
     height: 5px;
     width: 100%;
     margin: 6px auto;

@@ -47,7 +47,7 @@ export default function Information() {
         {PegrandeItems.map((price, index) => {
           const isOpen = openItems[index] || false;
           const isLast = index === PegrandeItems.length - 1;
-          const classes = isLast ? "p-0" : "px-0 py-3 border-b border-blue-gray-50";
+          const classes = isLast ? "p-0" : "px-3 py-3 border-b border-blue-gray-200";
 
           return (
             <Fragment key={index}>
@@ -60,134 +60,142 @@ export default function Information() {
                   <p className="text-white text-base lg:text-2xl"><b>{price.name}</b></p>
                 </AccordionHeader>
                 <AccordionBody className="px-8 bg-blue-100 md:text-xl text-base">
-                  <p>{price.description}</p>
+                  <p className="text-black">{price.description}</p>
 
-                  <Card className="h-full md:w-[50vw] w-full mt-5">
-                    <table className="w-full min-w-max table-auto text-left">
-                      <thead>
-                        <tr>
-                          {TABLE_HEAD.map((head) => (
-                            <th key={head} className="border-b border-blue-gray-100 bg-blue-gray-50 p-4">
-                              <Typography
-                                variant="small"
-                                color="blue-gray"
-                                className="font-normal leading-none opacity-70"
-                              >
-                                {head}
-                              </Typography>
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
+                  <div className="">
+                    <Card className="mt-5 mb-5 md:w-[50vw]">
+                      <table className="w-full table-auto">
+                        <thead className="">
+                          {!!price.option_1 ? (
+                            <tr>
+                              {TABLE_HEAD.map((head) => (
+                                <th key={head} className="border-b border-blue-gray-200 bg-blue-gray-50 py-3 text-center">
+                                  <Typography variant="small" color="black" className="font-normal leading-non lg:text-lge text-base opacity-70 text-center">
 
-                        <tr key={price.name}
-                        >
-                          {!!price.price_1 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.price_1}
-                              </Typography>
-                            </td>
-                            : null}
-                          {!!price.option_1 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.option_1}
-                              </Typography>
-                            </td>
-                            : null}
-                        </tr>
-                        <tr key={price.name}
-                        >
-                          {!!price.price_2 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.price_2}
-                              </Typography>
-                            </td>
-                            : null}
-                          {!!price.option_2 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.option_2}
-                              </Typography>
-                            </td>
-                            : null}
-                        </tr>
-                        <tr key={price.name}
-                        >
-                          {!!price.price_3 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.price_3}
-                              </Typography>
-                            </td>
-                            : null}
-                          {!!price.option_3 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.option_3}
-                              </Typography>
-                            </td>
-                            : null}
-                        </tr>
-                        <tr key={price.name}
-                        >
-                          {!!price.price_4 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.price_4}
-                              </Typography>
-                            </td>
-                            : null}
-                          {!!price.option_4 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.option_4}
-                              </Typography>
-                            </td>
-                            : null}
-                        </tr>
-                        <tr key={price.name}
-                        >
-                          {!!price.price_5 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.price_5}
-                              </Typography>
-                            </td>
-                            : null}
-                          {!!price.option_5 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.option_5}
-                              </Typography>
-                            </td>
-                            : null}
-                        </tr>
-                        <tr key={price.name}
-                        >
-                          {!!price.price_6 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.price_6}
-                              </Typography>
-                            </td>
-                            : null}
-                          {!!price.option_6 ?
-                            <td className={classes}>
-                              <Typography variant="small" color="blue-gray" className="font-normal">
-                                {price.option_6}
-                              </Typography>
-                            </td>
-                            : null}
-                        </tr>
+                                    <p className="text-left pl-3 lg:text-lg text-black font-bold">{head}</p>
+                                  </Typography>
+                                </th>
+                              ))}
+                            </tr>
+                          ) : (
+                            <tr>
+                              <th className="border-b border-blue-gray-100 bg-blue-gray-50 py-3 text-center">
+                                <Typography variant="small" color="black" className="font-normal leading-non lg:text-lge text-base opacity-70 text-center">
+                                  <p className="text-center lg:text-lg text-black font-bold">Consulte</p>
+                                </Typography>
+                              </th>
+                            </tr>
+                          )}
+                        </thead>
+                        <tbody>
 
-                      </tbody>
-                    </table>
-                  </Card>
+                          <tr key={price.name}
+                          >
+                            {!!price.price_1 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.price_1}
+                                </Typography>
+                              </td>
+                              : null}
+                            {!!price.option_1 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.option_1}
+                                </Typography>
+                              </td>
+                              : null}
+                          </tr>
+                          <tr key={price.name}
+                          >
+                            {!!price.price_2 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.price_2}
+                                </Typography>
+                              </td>
+                              : null}
+                            {!!price.option_2 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.option_2}
+                                </Typography>
+                              </td>
+                              : null}
+                          </tr>
+                          <tr key={price.name}
+                          >
+                            {!!price.price_3 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.price_3}
+                                </Typography>
+                              </td>
+                              : null}
+                            {!!price.option_3 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.option_3}
+                                </Typography>
+                              </td>
+                              : null}
+                          </tr>
+                          <tr key={price.name}
+                          >
+                            {!!price.price_4 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.price_4}
+                                </Typography>
+                              </td>
+                              : null}
+                            {!!price.option_4 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.option_4}
+                                </Typography>
+                              </td>
+                              : null}
+                          </tr>
+                          <tr key={price.name}
+                          >
+                            {!!price.price_5 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.price_5}
+                                </Typography>
+                              </td>
+                              : null}
+                            {!!price.option_5 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.option_5}
+                                </Typography>
+                              </td>
+                              : null}
+                          </tr>
+                          <tr key={price.name}
+                          >
+                            {!!price.price_6 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.price_6}
+                                </Typography>
+                              </td>
+                              : null}
+                            {!!price.option_6 ?
+                              <td className={classes}>
+                                <Typography variant="small" color="black" className="font-normal lg:text-lg text-base">
+                                  {price.option_6}
+                                </Typography>
+                              </td>
+                              : null}
+                          </tr>
 
+                        </tbody>
+                      </table>
+                    </Card>
+                  </div>
                 </AccordionBody>
                 {/* <Table price={price} /> */}
               </Accordion>

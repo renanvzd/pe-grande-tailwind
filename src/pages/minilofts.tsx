@@ -13,7 +13,6 @@ const Minilofts = () => {
         description=""
         content=""
       >
-        <HeaderSubpage title="Minilofts" />
         <div className="bg-[#cae0fc]">
           {/* <Introduction /> */}
           <Description />
