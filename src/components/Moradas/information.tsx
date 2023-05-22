@@ -7,7 +7,6 @@ import {
   Typography
 } from "@material-tailwind/react";
 import { PegrandeItems } from "@/data/pegrandePrice";
-import Table from "./table";
 
 const TABLE_HEAD = ["Diaria", "Pessoas"];
 
@@ -60,7 +59,7 @@ export default function Information() {
                   <p className="text-white text-lg lg:text-2xl"><b>{price.name}</b></p>
                 </AccordionHeader>
                 <AccordionBody className="px-8 bg-blue-100 md:text-xl">
-                  <p className="text-black opacity-100 text-lg text-justify">{price.description}</p>
+                  <p className="text-black opacity-100 text-lg text-justify font-poppins font-medium">{price.description}</p>
 
                   <div className="">
                     <Card className="mt-5 mb-5 md:w-[50vw]">
@@ -70,7 +69,7 @@ export default function Information() {
                             <tr>
                               {TABLE_HEAD.map((head) => (
                                 <th key={head} className="border-b border-blue-gray-200 bg-blue-gray-50 py-3 text-center">
-                                  <Typography variant="small" color="black" className="leading-non lg:text-lge text-base opacity-70 text-center">
+                                  <Typography variant="paragraph" color="black" className="leading-non lg:text-lg text-base opacity-70 text-center">
 
                                     <p className="text-left pl-3 lg:text-lg text-black font-bold">{head}</p>
                                   </Typography>
@@ -80,7 +79,7 @@ export default function Information() {
                           ) : (
                             <tr>
                               <th className="border-b border-blue-gray-100 bg-blue-gray-50 py-3 text-center">
-                                <Typography variant="small" color="black" className="leading-non lg:text-lge text-base opacity-70 text-center">
+                                <Typography variant="paragraph" color="black" className="leading-non lg:text-lg text-base opacity-70 text-center">
                                   <p className="text-center lg:text-lg text-black font-bold">Consulte</p>
                                 </Typography>
                               </th>
@@ -93,14 +92,14 @@ export default function Information() {
                           >
                             {!!price.price_1 ?
                               <td className={classes}>
-                                <Typography variant="" color="black" className="text-black lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="text-black lg:text-lg text-base">
                                   {price.price_1}
                                 </Typography>
                               </td>
                               : null}
                             {!!price.option_1 ?
                               <td className={classes}>
-                                <Typography variant="small" color="black" className="lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="lg:text-lg text-base">
                                   {price.option_1}
                                 </Typography>
                               </td>
@@ -110,14 +109,14 @@ export default function Information() {
                           >
                             {!!price.price_2 ?
                               <td className={classes}>
-                                <Typography variant="" color="black" className="text-black lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="text-black lg:text-lg text-base">
                                   {price.price_2}
                                 </Typography>
                               </td>
                               : null}
                             {!!price.option_2 ?
                               <td className={classes}>
-                                <Typography variant="small" color="black" className="lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="lg:text-lg text-base">
                                   {price.option_2}
                                 </Typography>
                               </td>
@@ -127,14 +126,14 @@ export default function Information() {
                           >
                             {!!price.price_3 ?
                               <td className={classes}>
-                                <Typography variant="" color="black" className="text-black lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="text-black lg:text-lg text-base">
                                   {price.price_3}
                                 </Typography>
                               </td>
                               : null}
                             {!!price.option_3 ?
                               <td className={classes}>
-                                <Typography variant="small" color="black" className="lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="lg:text-lg text-base">
                                   {price.option_3}
                                 </Typography>
                               </td>
@@ -144,14 +143,14 @@ export default function Information() {
                           >
                             {!!price.price_4 ?
                               <td className={classes}>
-                                <Typography variant="" color="black" className="text-black lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="text-black lg:text-lg text-base">
                                   {price.price_4}
                                 </Typography>
                               </td>
                               : null}
                             {!!price.option_4 ?
                               <td className={classes}>
-                                <Typography variant="small" color="black" className="lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="lg:text-lg text-base">
                                   {price.option_4}
                                 </Typography>
                               </td>
@@ -161,14 +160,14 @@ export default function Information() {
                           >
                             {!!price.price_5 ?
                               <td className={classes}>
-                                <Typography variant="" color="black" className="text-black lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="text-black lg:text-lg text-base">
                                   {price.price_5}
                                 </Typography>
                               </td>
                               : null}
                             {!!price.option_5 ?
                               <td className={classes}>
-                                <Typography variant="small" color="black" className="lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="lg:text-lg text-base">
                                   {price.option_5}
                                 </Typography>
                               </td>
@@ -178,14 +177,14 @@ export default function Information() {
                           >
                             {!!price.price_6 ?
                               <td className={classes}>
-                                <Typography variant="" color="black" className="text-black lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="text-black lg:text-lg text-base">
                                   {price.price_6}
                                 </Typography>
                               </td>
                               : null}
                             {!!price.option_6 ?
                               <td className={classes}>
-                                <Typography variant="small" color="black" className="lg:text-lg text-base">
+                                <Typography variant="paragraph" color="black" className="lg:text-lg text-base">
                                   {price.option_6}
                                 </Typography>
                               </td>

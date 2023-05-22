@@ -8,6 +8,7 @@ module.exports = withMT({
   ],
   theme: {
     fontFamily: {
+      'calibri': ['Calibri', 'sans-serif'],
       'poppins': ['Poppins', 'sans-serif'],
       'bruno': ['Bruno Ace SC', 'cursive'],
     },

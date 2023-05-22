@@ -8,8 +8,8 @@ export const PegrandeItems = [
   },
   {
     name: "2 - Loft maior família",
-    description: "Térreo sem vista mar; Loft maior; Fogão com forno privativo dentro; Geladeira privativa; Microondas privativo; Ventilador de teto, mais um ventilador de mesa; Pia com utensílios básicos, copos, talheres, pratos e 4 panelas; Cama de casal; 2  beliches; Sofá-cama ; Tv canais locais; Wi-fi; ACESSO LIVRE A PISCINA DAS 10:00 às 19:00; Banheiro privativo.",
-    "obs": "* Este apto tem opção com ar: adicional R$100,00 ",
+    description: "Térreo sem vista mar; Loft maior; Fogão com forno privativo dentro; Geladeira privativa; Microondas privativo; Ventilador de teto, mais um ventilador de mesa; Pia com utensílios básicos, copos, talheres, pratos e 4 panelas; Cama de casal; 2  beliches; Sofá-cama; Tv canais locais; Wi-fi; ACESSO LIVRE A PISCINA DAS 10:00 às 19:00; Banheiro privativo.",
+    obs: "* Este apto tem opção com ar: adicional R$100,00 ",
     price_1: "R$300,00",
     option_1: " 2 pessoas;",
     price_2: "R$350,00",
@@ -26,7 +26,7 @@ export const PegrandeItems = [
   {
     name: "3 - Loft família (Vista do mar)",
     description: "Segundo piso com vista panorâmica do mar; Loft maior; Fogão com forno privativo dentro; Geladeira privativa; Microondas privativo; Ventilador de teto, mais um ventilador de mesa; Pia com utensílios básicos, copos, talheres, pratos e panelas; Cama de casal; Beliche; Tv canais locais; Wi-fi; ACESSO LIVRE A PISCINA DAS 10:00 às 19:00; Banheiro privativo.",
-    "obs": "* Este apto tem opção com ar: adicional R$100,00 ",
+    obs: "* Este apto tem opção com ar: adicional R$100,00 ",
     price_1: "R$300,00",
     option_1: " 2 pessoas;",
     price_2: "R$350,00",
@@ -40,7 +40,7 @@ export const PegrandeItems = [
   },
   {
     name: "4- Miniloft padrão (Fogão privativo) ",
-    description: "Somente no segundo piso vista mar. Fogão, Geladeira e microondas, todos privativos; Mesa com 4 cadeiras; Pia com utensílios:  copos, talheres,  pratos 2 panelas; Tv Canais locais; Wi-fi; Ventilador de teto e mais um ventilador de mesa;Piscina liberada 10:00 as 19:00; Cama de casal + beliche; Banheiro privativo",
+    description: "Somente no segundo piso vista mar. Fogão, Geladeira e microondas, todos privativos; Mesa com 4 cadeiras; Pia com utensílios:  copos, talheres,  pratos 2 panelas; Tv Canais locais; Wi-fi; Ventilador de teto e mais um ventilador de mesa; Piscina liberada 10:00 as 19:00; Cama de casal + beliche; Banheiro privativo",
     price_1: "R$260,00",
     option_1: " 1 a 2 pessoas;",
     price_2: "R$285,00",
@@ -56,8 +56,7 @@ export const PegrandeItems = [
   },
   {
     name: "5 - Miniloft básico (Térreo) ",
-    description: "Miniloft padrão de todos os anos. Geladeira e microondas, todos privativos; Mesa com 4 cadeiras; Pia com utensílios:  copos, talheres,  pratos e 2 panelas; Tv canais locais; Wi-fi; Ventilador de teto e mais um ventilador de mesa; (fogão para uso 24 horas somente no espaço gourmet/fora do apto); Piscina liberada 10:00 as 19:00; Cama de casal + beliche; Banheiro privativo.",
-    obs: "",
+    description: "Miniloft padrão de todos os anos. Geladeira e microondas, todos privativos; Mesa com 4 cadeiras; Pia com utensílios:  copos, talheres,  pratos e 2 panelas; Tv canais locais; Wi-fi; Ventilador de teto e mais um ventilador de mesa; Fogão para uso 24 horas somente no espaço gourmet/fora do apto; Piscina liberada 10:00 as 19:00; Cama de casal + beliche; Banheiro privativo.",
     price_1: "R$200,00",
     option_1: "2 pessoas;",
     price_2: "R$220,00",
@@ -73,8 +72,7 @@ export const PegrandeItems = [
   },
   {
     name: "6 - Miniloft básico (2º piso)",
-    description: "Miniloft padrão de todos os anos. Geladeira e microondas, todos privativos; Mesa com 4 cadeiras; Pia com utensílios:  copos, talheres,  pratos e 2 panelas; Tv canais locais; Wi-fi; Ventilador de teto e mais um ventilador de mesa; (fogão para uso 24 horas somente no espaço gourmet/fora do apto); Piscina liberada 10:00 as 19:00; Cama de casal + beliche; Banheiro privativo.",
-    obs: "",
+    description: "Miniloft padrão de todos os anos. Geladeira e microondas, todos privativos; Mesa com 4 cadeiras; Pia com utensílios:  copos, talheres,  pratos e 2 panelas; Tv canais locais; Wi-fi; Ventilador de teto e mais um ventilador de mesa; Fogão para uso 24 horas somente no espaço gourmet/fora do apto; Piscina liberada 10:00 as 19:00; Cama de casal + beliche; Banheiro privativo.",
     price_1: "R$215,00",
     option_1: "2 pessoas;",
     price_2: "R$240,00",
