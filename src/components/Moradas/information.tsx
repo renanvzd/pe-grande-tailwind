@@ -57,10 +57,10 @@ export default function Information() {
                   onClick={() => handleOpen(index)}
                   className="bg-[#03124D] w-full px-6"
                 >
-                  <p className="text-white text-base lg:text-2xl"><b>{price.name}</b></p>
+                  <p className="text-white text-lg lg:text-2xl"><b>{price.name}</b></p>
                 </AccordionHeader>
                 <AccordionBody className="px-8 bg-blue-100 md:text-xl">
-                  <p className="text-black">{price.description}</p>
+                  <p className="text-black opacity-100 text-lg text-justify">{price.description}</p>
 
                   <div className="">
                     <Card className="mt-5 mb-5 md:w-[50vw]">
